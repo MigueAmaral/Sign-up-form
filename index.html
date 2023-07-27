@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="background">
+        <img src="Resources/halie-west-25xggax4bSA-unsplash.jpg" alt="backgroundIMG" class="backgroundIMG">
+        <div class="logoBG">
+            <img src="Resources/odin-lined.png" alt="logo" class="logo">
+            <h1 class="logoName">ODIN</h1>
+        </div>
+    </div>
+    <div class="MainContent">
+        <div class="presentation">
+            <h1 class="header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.</h1>
+            <h1 class="header">You <em>know</em> you want to.</h1>
+        </div>
+        <form action="" method="post" class="formOne">
+            <h1 class="formLegend">Let's do this!</h1>
+            <div class="formBody">
+            <div class='Column1'>
+            <label for='first-name'>FIRST NAME</label>
+            <input id='first-name' name='first-name' type='text'/>
+            <label for='email'>EMAIL</label>
+            <input id='email' name='email' type='email' placeholder=''/>
+            <label for='password'>PASSWORD</label>
+            <input id='password' name='password' type='password' class="error"/>
+            <p class="match" id="match">* Passwords do not match</p>
+            </div>
+            <div class="Column2">
+            <label for='last-name'>LAST NAME</label>
+            <input id='last-name' name='last-name' type='text'/>
+            <label for='phone-number'>PHONE NUMBER</label>
+            <input id='phoneNumber' name='phone-number' type='text'/>
+            <label for='passwordConfirm'>CONFIRM PASSWORD</label>
+            <input id='passwordConfirm' name='passwordConfirm' type='password' class="error"/>
+            </div>
+            </div>
+        </form>
+        <div class="submission">
+            <button type="submit" id="button">Create Account</button>
+            <p2 class="logIn">Already have an account?<a href="http://"> Log in</a></p2>
+        </div>
+    </div>
+</body>
+</html>
